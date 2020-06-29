@@ -134,7 +134,7 @@ In this task you will create an application rule that allows outbound access to 
 7.  For **Action**, select **Allow**.
 8.  Under **Rules**, **Target FQDNs**, for **Name**, type **AllowGH**.
 9.  For **Source Addresses**, type **10.0.2.0/24**.
-10.  For **Protocol:port**, type **http, https**.
+10.  For **Protocol:port**, type **http:80, https:443**.
 11.  For **Target FQDNS**, type **msn.com**
 12.  Click **Add**.
 
